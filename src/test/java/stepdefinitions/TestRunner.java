@@ -4,8 +4,10 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        // Set name of .feature file in test/resources/features like age_calculaion.feature and glue it to this folder stepdefinitions 
         features = {"classpath:features/age_calculation.feature"},
         glue = {"stepdefinitions"},
         plugin = {"pretty", "json:target/cucumber.json"}
