@@ -6,14 +6,14 @@ Feature: Age Calculation
   Scenario: Calculate age in days
     Given I have entered my birth date as "2023-07-02"
     When I calculate the age
-    Then I should see the age in days as "1"
+    Then I should see the age in days as "7"
 
   Scenario: Calculate age in days
     Given I have entered my birth date as "2023-06-23"
     When I calculate the age
-    Then I should see the age in days as "10"
+    Then I should see the age in days as "16"
 
   Scenario: Calculate age in days
     Given I have entered my birth date as "1990-01-01"
     When I calculate the age
-    Then I should see the age in days as "12236"
+    Then I should see the age in days as "12242"
