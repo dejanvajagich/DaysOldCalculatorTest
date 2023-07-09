@@ -26,6 +26,6 @@ public class AgeCalculationSteps {
     @Then("I should see the age in days as {string}")
     public void i_should_see_the_age_in_days_as(String expectedAge) {
         int expectedAgeInDays = Integer.parseInt(expectedAge);
-        assertEquals(expectedAgeInDays, ageInDays);
+        Assert.assertEquals(expectedAgeInDays, ageInDays);
     }
 }
