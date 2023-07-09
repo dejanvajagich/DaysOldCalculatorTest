@@ -9,11 +9,11 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"classpath:features/age_calculation.feature"},
-        glue = {"stepdefinitions"})
+        glue = {"stepdefinitions"},
         plugin = {"pretty", "json:target/cucumber.json"}
-
+)
 public class TestRunner {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         // Print additional information before running the tests
         System.out.println("Starting Cucumber tests...");
         
