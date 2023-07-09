@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"classpath:features/vowels-count.feature"},
-        glue = {"cucumber_example"})
+        features = {"classpath:features/age_calculation.feature"},
+        glue = {"stepdefinitions"})
 
 public class TestRunner {
 }
