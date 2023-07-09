@@ -1,4 +1,5 @@
 package stepdefinitions;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -15,7 +16,7 @@ public class TestRunner {
         System.out.println("Starting Cucumber tests...");
         
         // Execute the Cucumber tests
-        cucumber.api.cli.Main.main(args);
+        io.cucumber.core.cli.Main.main(args);
         
         // When finished
         System.out.println("Cucumber tests finished.");
