@@ -1,4 +1,4 @@
-package cucumber_example;
+package stepdefinitions;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
